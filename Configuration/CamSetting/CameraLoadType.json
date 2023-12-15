@@ -1,0 +1,40 @@
+{
+  "Configuration": {
+    "CameraList": [
+
+      {
+        "CameraType": "OutLook",
+        "Path": "OutLookCam"
+      },
+      {
+        "CameraType": "FreeLook",
+        "Path": "FreeLookCam"
+      },
+      {
+        "CameraType": "Player",
+        "Path": "PlayerCam"
+      },
+      {
+        "CameraType": "AutoRoaming",
+        "Path": "RoamingCam"
+      },
+      {
+        "CameraType": "TextureSmoothLook",
+        "Path": "TextureSmoothLookCam"
+      },
+      {
+        "CameraType": "StaticOutLook",
+        "Path": "ObritCam"
+      },
+      {
+        "CameraType": "AutoRoamingFree",
+        "Path": "AutoRoamingCamFree"
+      },
+      {
+        "CameraType": "Pos",
+        "Path": "PosCam"
+      }
+    ],
+    "Path": "AssetBundles/StandaloneWindows/camera"
+  }
+}

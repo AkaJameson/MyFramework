@@ -1,0 +1,8 @@
+{
+  "Info": [
+    {
+      "ApiType": "QueryingTemperatureandHumidityInformation",
+      "APIRoute": "http://8.131.243.12:8081/hgxd/app/humiture/info"
+    }   
+  ]
+}

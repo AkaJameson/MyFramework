@@ -1,0 +1,72 @@
+{
+	"Configuration":
+	{
+		"PanelList": [
+			{
+				"PanelType": "Login",
+				"Path": "LoginPanel"
+			},
+			{
+				"PanelType": "Main",
+				"Path": "MainPanel"
+			},
+			{
+				"PanelType": "Round",
+				"Path": "RoundPanel"
+			},
+			{
+				"PanelType": "FirstButtonGroup",
+				"Path": "FristButtonGroupPanel"
+			},
+			{
+				"PanelType": "SecondButtonGroup",
+				"Path": "SecondButtonGroupPanel"
+			},
+			{
+				"PanelType": "ThirdButtonGroup",
+				"Path": "ThirdButtonGroupPanel"
+			},
+			{
+				"PanelType": "FourthButtonGroup",
+				"Path": "FourthLevelButtonGroupPanel"
+			},
+			{
+				"PanelType": "ComPanyInfo",
+				"Path": "CompanyInfoPanel"
+			},
+			{
+				"PanelType": "DataCapcit",
+				"Path": "DataDrivePanel"
+			},
+			{
+				"PanelType": "Data1",
+				"Path": "Data1Panel"
+			},
+			{
+				"PanelType": "Data2",
+				"Path": "Data2Panel"
+			},
+			{
+				"PanelType": "Data3",
+				"Path": "Data3Panel"
+			},
+			{
+				"PanelType": "Data4",
+				"Path": "Data4Panel"
+			},
+			{
+				"PanelType": "Navgation",
+				"Path": "NavgationPanel"
+			},
+			{
+				"PanelType": "AutoRoamingDestion",
+				"Path": "AutoRoamingDestionMenuPanel"
+			},
+			{
+				"PanelType": "Devide",
+				"Path": "DevidePanel"
+			}
+		],
+		"Path":"AssetBundles/StandaloneWindows/ui"
+	}
+}
