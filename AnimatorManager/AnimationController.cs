@@ -79,5 +79,32 @@ namespace XJFramework.AnimationManager
                 Debug.Log(animator.Key.ToString() + " " + animator.Value.name);
             }
         }
+        /// <summary>
+        /// 查找字典中的animator
+        /// </summary>
+        /// <param name="animatorName"></param>
+        /// <returns></returns>
+        public bool SearchAnimatorIfInDic(string animatorName)
+        {
+            if (!animatorDic.ContainsKey(animatorName))
+            {
+                return false;
+            }
+            else { return true; }
+        }
+        /// <summary>
+        /// 重载
+        /// </summary>
+        /// <param name="animatorName"></param>
+        /// <returns></returns>
+        public bool SearchAnimatorIfInDic(string animatorName,out Animator animator)
+        {
+            if (!animatorDic.ContainsKey(animatorName))
+            {
+                animator = null;
+                return false;
+            }
+            else { animator = animatorDic[animatorName]; return true; }
+        }
     }
 }

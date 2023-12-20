@@ -20,7 +20,7 @@ namespace XJFramework.UIFramework
         Data4,
         Navgation,
         AutoRoamingDestion,
-        Devide
-
+        Devide,
+        Dismental
     }
 }
