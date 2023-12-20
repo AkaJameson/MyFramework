@@ -65,6 +65,10 @@
 			{
 				"PanelType": "Devide",
 				"Path": "DevidePanel"
+			},
+			{
+				"PanelType": "Dismental",
+				"Path": "DismentalPanel"
 			}
 		],
 		"Path":"AssetBundles/StandaloneWindows/ui"
