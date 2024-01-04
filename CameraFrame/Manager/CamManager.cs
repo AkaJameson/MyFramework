@@ -194,6 +194,10 @@ namespace XJFramework.Camera
 
         public BaseCam PeekCam()
         {
+            if(camQueue.Count == 0)
+            {
+                return null;
+            }
             return camQueue.Peek();
         }
     }

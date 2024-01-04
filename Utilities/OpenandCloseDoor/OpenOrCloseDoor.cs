@@ -52,7 +52,7 @@ namespace XJFramework.Utilites
         /// </summary>
         private void AutoSetBoxCollideSize()
         {
-            boxCollider.size = new Vector3(2.5f, 6.5f, 3.5f);
+            boxCollider.size = new Vector3(2.5f, 4f, 3.5f);
             boxCollider.center = new Vector3(0, 0, 0);
             boxCollider.isTrigger = true;
         }

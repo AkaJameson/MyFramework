@@ -6,7 +6,7 @@ public class FirstPersonCameraController : MonoBehaviour
 {
     public float mouseSensitivity = 2.0f;
     public float moveSpeed = 5.0f;
-    public float grivateSpeed = 3.0f;
+    public float grivateSpeed = 1.0f;
     public Camera playerCamera;
     private float verticalRotation = 0.0f;
     private CharacterController characterController;
@@ -21,7 +21,7 @@ public class FirstPersonCameraController : MonoBehaviour
         // 记录初始位置和旋转角度
         initialPosition = transform.position;
         initialRotation = transform.rotation;
-        characterController.stepOffset = 0.5f;
+        //characterController.stepOffset = 0.3f;
         Debug.Log(initialPosition + " " + initialRotation);
     }
 
@@ -34,8 +34,9 @@ public class FirstPersonCameraController : MonoBehaviour
     void LateUpdate()
     {
         RaycastHit hit;
-        float raylingth = characterController.height * 0.5f+0.3f;
+        float raylingth = characterController.height * 0.5f-0.2f;
         isGround = Physics.Raycast(transform.position, Vector3.down, out hit, raylingth);
+    
      /*   Debug.Log(isGround);*/
         // 检测是否按住右键
         bool isRightMouseButtonDown = Input.GetMouseButton(1);

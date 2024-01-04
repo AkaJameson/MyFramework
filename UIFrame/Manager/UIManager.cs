@@ -33,7 +33,9 @@ namespace XJFramework.UIFramework
         /// 保存上个面板的panel信息 TODO
         /// </summary>
         private Stack<BasePanel> previousPanelStack;
-
+        /// <summary>
+        /// 存储在队列中的ui面板
+        /// </summary>
         private Queue<BasePanel> noneInStackPanelQuene;
 
         private Transform canvasTransform;

@@ -98,7 +98,7 @@ public class OrbitCamera : MonoBehaviour
 		if (Distance > DistanceMax)
 		  DistanceMax = Distance;
 		startingDistance = Distance;
-		Reset(-50,0,150);
+		Reset(-50,0,200);
 	}
 
 	// Update is called once per frame

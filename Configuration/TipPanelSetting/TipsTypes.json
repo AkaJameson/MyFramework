@@ -1,0 +1,12 @@
+{
+  "Configuration": {
+    "TipsList": [
+      {
+        "TipName": "Demo",
+        "TipPath": "DemoTip"
+      }
+    ],
+    "Path": "AssetBundles/StandaloneWindows/tips"
+
+  },
+}

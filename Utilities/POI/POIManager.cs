@@ -16,6 +16,7 @@ public static class POIManager
                 GameObject poiinstance = GameObject.Instantiate(instancePrefab);
                 poiinstance.GetComponentInChildren<TextMeshProUGUI>().text = pos.name;
                 poiinstance.SetActive(false);
+                poiinstance.transform.SetParent(canvas.transform, false);
                 PoiCollection.Add(pos,poiinstance);
             }
         }
@@ -35,7 +36,6 @@ public static class POIManager
 
             poiinstance.GetComponent<RectTransform>().anchoredPosition = targetPos;
 
-            poiinstance.transform.SetParent(canvasRect, false);
         }
     }
     /// <summary>

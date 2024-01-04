@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Events;
-
+using Unity.VisualScripting;
 
 namespace CameraLook
 {
@@ -75,7 +75,13 @@ namespace CameraLook
 
             InitCameraFreeMode();
         }
-
+   /*     private void Update()
+        {
+            if (this.transform.position.y < 0.1f)
+            {
+                this.transform.position = new Vector3(this.transform.position.x,0.1f,this.transform.position.z);
+            }
+        }*/
         void LateUpdate()
         {
             //相机控制
